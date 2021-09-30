@@ -528,6 +528,88 @@ html[dir='rtl']  .how-to-apply-section .card {
   height: auto;
   margin-top: -50px;
 }
+
+
+.pagination{
+
+  padding:15px 0px 22px;
+
+}
+
+.pagination ul{
+  margin:0 auto;
+
+  display:inline-block;
+
+}
+
+.pagination ul li{
+
+  display:inline-block;
+
+  list-style:none;
+
+}
+.pagination ul li a{
+  background: transparent;
+  width:30px;
+
+  height:30px;
+
+  line-height:30px;
+  font-weight: 500;
+  color: #000;
+  padding: 9px 15px;
+  font-size:14px;
+  text-decoration: none;
+  border: 1px solid #057b03;
+}
+.pagination ul li a:hover{
+  background: #057b03;
+  color: #fff;
+}
+
+.pagination ul #prev{
+
+  background:transparent;
+  width: 30px;
+  padding: 8px 15px;
+  height: 30px;
+  color: #fff;
+
+
+}
+
+
+.pagination ul #prev i{
+
+  font-size:14px;
+  color: #000;
+
+}
+.pagination ul #prev:hover i{
+  color: #057b03;
+}
+
+.pagination ul #next{
+
+  width: 30px;
+  height: 30px;
+  padding: 8px 15px;
+  background:transparent;
+
+}
+
+
+.pagination ul #next i{
+
+  font-size:14px;
+  color: #000;
+
+}
+.pagination ul #next:hover i{
+  color: #057b03;
+}
 @media(max-width: 767px){
 
   header #menu-main-menu{
