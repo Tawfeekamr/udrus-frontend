@@ -1061,6 +1061,7 @@ input[type="range"]:focus::-ms-fill-upper {
     margin: 15px auto;
     background-color: #4bb200;
     outline: blue;
+    border-radius: 5px;
     border: 0;
     color: #fff;
   }
@@ -1149,7 +1150,9 @@ input[type="range"]:focus::-ms-fill-upper {
 
     display: grid;
   }
-
+  .main_content_wrapper .dashboard_image img {
+    margin: 10px 0;
+  }
   .main_content_wrapper .dashboard_image {
     width: 100%;
 
@@ -1160,8 +1163,6 @@ input[type="range"]:focus::-ms-fill-upper {
     width: 100%;
 
     height: auto;
-
-    margin: 0px;
   }
 
   .main_content_wrapper .dashboard_detail {
@@ -1175,7 +1176,7 @@ input[type="range"]:focus::-ms-fill-upper {
   }
 
   .dashboard_detail_item {
-    margin-bottom: 0px;
+    margin-bottom: 6px;
     padding-top: 10px !important;
   }
 
