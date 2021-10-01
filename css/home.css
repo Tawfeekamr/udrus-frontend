@@ -143,9 +143,6 @@ p span a {
   color: #000;
   text-decoration: none;
 }
-.search a:hover {
-  transform: scale(1.2, 1.2);
-}
 
 #stored_item {
   width: 62%;
@@ -186,8 +183,6 @@ p span a {
 }
 
 #stored_item ul li a i {
-  transform: rotate(136deg);
-
   margin-left: 10px;
 
   color: #000;
@@ -525,7 +520,7 @@ p span a {
 
   top: 18px;
 
-  right: 85px;
+  right: 0;
 
   font-size: 12px;
 
@@ -945,7 +940,9 @@ input[type="range"]:focus::-ms-fill-upper {
   box-shadow: 0 0 0 2em #008000 inset;
 }
 
-.readmore_btn:hover {
+.btn.readmore_btn:hover,
+.btn.apply_btn {
+  color: #fff !important;
 }
 
 .readmore_btn .fas {
@@ -956,9 +953,6 @@ input[type="range"]:focus::-ms-fill-upper {
   opacity: 0;
 
   margin-top: 3px;
-}
-
-.readmore_btn:hover .fas {
 }
 
 .readmore_btn:before {
