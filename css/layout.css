@@ -17,6 +17,10 @@ body h6 {
   font-weight: bold;
 }
 
+footer ul {
+  list-style: none;
+}
+
 .person {
   box-shadow: 0px 0px 15px #a9a9a9;
 }
