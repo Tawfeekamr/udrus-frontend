@@ -351,9 +351,7 @@ footer .footer-widgets-row {
 .footer-widget ul li:not(:last-child) {
   padding-bottom: 5px;
 }
-#custom_html-2 {
-  padding-left: 25px;
-}
+
 #custom_html-2 a {
   text-decoration: none;
   margin-bottom: 25px;
@@ -1396,6 +1394,13 @@ html[dir="rtl"] .how-to-apply-section .step-numbers-absolute {
 #search-2 .widget-title {
   font-size: 24px;
 }
+
+.footer-widget ul li:not(:last-child) {
+  padding-bottom: 25px;
+}
+.footer-widget ul li:last-child {
+  padding-bottom: 25px;
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .page-template-home-page-3
     .why-choose-us
@@ -1435,9 +1440,14 @@ html[dir="rtl"] .how-to-apply-section .step-numbers-absolute {
   }
 } /* Media Queries*/
 
-@media (min-width: 768px) { 
-  header ul#menu-main-menu li a {
-    
+@media (max-width: 767px) {
+  .footer-widgets-row > div > div > div:not(:last-child) {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+  }
+  ul.menu li {
+    justify-content: center;
+    text-align: center;
   }
 }
 
@@ -2135,7 +2145,7 @@ html[dir="rtl"] .how-to-apply-section .step-numbers-absolute {
     padding-left: 0px;
   }
   #custom_html-2 {
-    display: flex;
+    /* display: flex; */
     padding-left: 0px;
     justify-content: space-between;
     align-items: center;
