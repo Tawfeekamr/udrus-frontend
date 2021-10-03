@@ -99,7 +99,7 @@ ul {
 
   justify-content: space-between;
 
-  padding: 10px 30px;
+  padding: 10px 20px;
 
   align-items: center;
 
@@ -167,7 +167,7 @@ ul {
   height: 435px;
 }
 .accordion-list li i {
-  font-size: 15px;
+  font-size: 20px;
   color: #707070;
   font-weight: 600;
 }
