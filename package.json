@@ -6,7 +6,7 @@
   "license": "",
   "author": "",
   "scripts": {
-
+    "start": "npx lite-server"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
