@@ -58,7 +58,7 @@
 
 .nav.nav-tabs {
   border-bottom: none;
-  padding: 8px 403.5px 5.5px 25px;
+  padding: 10px;
   border-radius: 12.5px;
   background-color: #fff;
 }
@@ -748,8 +748,12 @@ ul {
 @media screen and (min-width: 1900px) and (max-height: 1080px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .accor_sec {
     padding: 0;
+  }
+
+  .nav.nav-tabs {
+    padding: 10px;
   }
 }
